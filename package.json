@@ -4,16 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel start:client start:comments start:event-bus start:query start:posts",
+    "start-all": "./start_all.sh",
     "start:client": "cd client && npm start",
     "start:comments": "cd comments && npm start",
     "start:event-bus": "cd event-bus && npm start",
     "start:query": "cd query && npm start",
-    "start:posts": "cd posts && npm start"
+    "start:posts": "cd posts && npm start",
+    "stop-all": "tmux kill-session -t app"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "npm-run-all": "^4.1.5"
-  }
+  "license": "ISC"
 }
