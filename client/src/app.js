@@ -2,7 +2,7 @@ import React from "react";
 import PostCreate from "./PostCreate";
 import PostList from "./PostList";
 
-const app = () => {
+const App = () => {
   return (
     <div className="container">
       <h1>Create Post</h1>
@@ -14,4 +14,4 @@ const app = () => {
   );
 };
 
-export default app;
+export default App;
