@@ -10,6 +10,7 @@
     "start:event-bus": "cd event-bus && npm start",
     "start:query": "cd query && npm start",
     "start:posts": "cd posts && npm start",
+    "start:moderation": "cd moderation && npm start",
     "stop-all": "tmux kill-session -t app"
   },
   "author": "",
